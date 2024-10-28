@@ -8,6 +8,7 @@
 sudo docker run -d -i --name ubuntu ubuntu:latest /bin/bash
 
 sudo docker run -d -i --name centos7 centos:7 /bin/bash
+
 ---
 4. Проведите запуск playbook на окружении из prod.yml. Зафиксируйте полученные значения some_fact для каждого из managed host.
 ![image](https://github.com/user-attachments/assets/2d2fb2b3-e6c8-4d7d-93ad-7540fdf05428)
