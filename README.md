@@ -6,6 +6,7 @@
 3. Воспользуйтесь подготовленным (используется docker) или создайте собственное окружение для проведения дальнейших испытаний.
 ---
 sudo docker run -d -i --name ubuntu ubuntu:latest /bin/bash
+
 sudo docker run -d -i --name centos7 centos:7 /bin/bash
 ---
 4. Проведите запуск playbook на окружении из prod.yml. Зафиксируйте полученные значения some_fact для каждого из managed host.
